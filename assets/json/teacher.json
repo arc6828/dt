@@ -1,0 +1,114 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "ณัฐรดี อนุพงค์",
+      "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ | B.Sc. (Applied Computing) - Northumbria University, Newcastle upon Tyne, United Kingdom.",
+      "role": "อาจารย์",
+      "email": "natradee@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128092522000000_1732760722306_edit.jpg",
+      "office": "IT102 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 2,
+      "name": "ณัฏฐิรา ศุขไพบูลย์",
+      "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | วท.บ. (วิทยาการคอมพิวเตอร์) - สถาบันราชภัฏเทพสตรี",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "nattila@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091901000000_1732760341097_edit.jpg",
+      "office": "IT102 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 3,
+      "name": "ดร.ประณมกร อัมพรพรรดิ์",
+      "education": "Ph.D. (Computer Science and Information System) - สถาบันบัณฑิตพัฒนบริหารศาสตร์ (NIDA) | M.Infs. (Database Systems) - University of  New South Wales, Australia | วท.บ. (วิทยาการคอมพิวเตอร์) - มหาวิทยาลัยมหิดล",
+      "role": "อาจารย์",
+      "email": "pranomkorn@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128092000000000_1732760400296_edit.jpg",
+      "office": "IT102 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 4,
+      "name": "ดร.ดาวรถา วีระพันธ์",
+      "education": "ปร.ด. (วิทยาศาสตรศึกษา) - มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ในพระบรมราชูปถัมภ์ | ค.อ.ม. (เทคโนโลยี คอมพิวเตอร์) - สถาบันเทคโนโลยีพระจอมเกล้าพระนครเหนือ | ค.บ. (คอมพิวเตอร์ศึกษา) - สถาบันราชภัฏเพชรบุรี",
+      "role": "อาจารย์",
+      "email": "daorathar@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128093525000000_1732761325984_edit.jpg",
+      "office": "IT101 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 5,
+      "name": "วิศรุต ขวัญคุ้ม",
+      "education": "วท.ม. (วิทยาการคอมพิวเตอร์) - มหาวิทยาลัยนเรศวร | วท.บ. (วิทยาการคอมพิวเตอร์) - มหาวิทยาลัยนเรศวร",
+      "role": "อาจารย์",
+      "email": "wisrut@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128093926000000_1732761566523_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 6,
+      "name": "ณัฐรดี อนุพงค์",
+      "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ | B.Sc. (Applied Computing) - Northumbria University, Newcastle upon Tyne, United Kingdom.",
+      "role": "อาจารย์",
+      "email": "natradee@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128092522000000_1732760722306_edit.jpg",
+      "office": "IT102 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 7,
+      "name": "ชวลิต โควีระวงศ์",
+      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
+      "role": "อาจารย์",
+      "email": "chavalit@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 8,
+      "name": "ชวลิต โควีระวงศ์",
+      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
+      "role": "อาจารย์",
+      "email": "chavalit@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 9,
+      "name": "ชวลิต โควีระวงศ์",
+      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
+      "role": "อาจารย์",
+      "email": "chavalit@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 10,
+      "name": "ชวลิต โควีระวงศ์",
+      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
+      "role": "อาจารย์",
+      "email": "chavalit@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 11,
+      "name": "ชวลิต โควีระวงศ์",
+      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
+      "role": "อาจารย์",
+      "email": "chavalit@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    }
+  ]
+}
