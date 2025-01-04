@@ -23,8 +23,8 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
                 <div class="col-lg-8">
                     <!-- Mashead text and app badges-->
                     <div class="mb-5 mb-lg-0 text-center text-lg-start kanit">
-                        <h1 class="display-3 lh-1 mb-3">รับสมัครนักศึกษา (ปริญญาตรีภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์)</h1>
-                        <p class="lead fw-normal text-muted mb-5">หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ รับสมัครนักศึกษา TCAS (ปริญญาตรี จันทร์-ศุกร์ และภาคเสาร์-อาทิตย์) ตั้งแต่วันนี้เป็นต้นไป ดูรายละเอียดและกรอกใบสมัครได้ที่นี่</p>
+                        <h1 class="display-4 lh-1 mb-3">รับสมัครนักศึกษา (ปริญญาตรี ภาคจันทร์-ศุกร์ และ ภาคเสาร์-อาทิตย์)</h1>
+                        <p class="lead fw-normal text-muted mb-5">หลักสูตรวิทยาการข้อมูล คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ รับสมัครนักศึกษาใหม่ (ปริญญาตรีภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์) ตั้งแต่วันนี้เป็นต้นไป ดูรายละเอียดและกรอกใบสมัครได้ที่นี่</p>
                         <div class="d-flex flex-column flex-lg-row align-items-center">
                             <a class="me-lg-3 mb-4 mb-lg-0" href="https://ent.vru.ac.th/Webregister/pages/index_insert_nm.php?fct_id=1" target="_blank">
                                 <button class="btn btn-primary btn-lg"> <i class="bi-chat-text-fill me-2"></i> สม้ครเรียน</button>
@@ -179,15 +179,24 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
     <section class="bg-light" id="plan">
         <div class="container px-5  text-center">
             <h2>แผนการเรียน</h2>
-            <div id="carouselExample" class="carousel slide">
+            <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <?php
+                $semesters = ["year1_1", "year1_2", "year2_1", "year2_2", "year3_1", "year3_2", "year4_1", "year4_2"];
+                ?>
+                <div class="carousel-indicators">
+                    <?php foreach ($semesters as $key => $semester) { ?>
+                        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="<?= $key ?>" class="<?= $key == 0 ? 'active' : '' ?>" aria-current="true" aria-label="Slide <?= $key + 1 ?>"></button>
+                    <?php } ?>
+                </div>
                 <div class="carousel-inner">
-                    <?php
-                    $semesters = ["year1_1", "year1_2", "year2_1", "year2_2", "year3_1", "year3_2", "year4_1", "year4_1"];
-                    ?>
-                    <?php foreach ($semesters as $semester) { ?>
-                        <div class="carousel-item">
+
+                    <?php foreach ($semesters as $key => $semester) { ?>
+                        <div class="carousel-item <?= ($key == 0 ? 'active' : '') ?>" data-bs-interval="5000">
                             <div>
-                                <h3>Semester x/y</h3>
+                                <?php
+
+                                ?>
+                                <h3 class="fs-5">ชั้นปีที่ <?= $semester[4] ?> ภาคการศึกษาที่ <?= $semester[6] ?></h3>
                                 <div class="table-responsive">
                                     <table class="table table-striped ">
                                         <thead>
@@ -217,11 +226,11 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">ก่อนหน้า</span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">ต่อไป</span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
 
@@ -229,27 +238,27 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
 
         </div>
     </section>
+    
 
     <!-- Lecturers -->
     <section class="" id="lecturer">
         <div class="container px-5  text-center">
             <h2>อาจารย์ในหลักสูตร</h2>
             <?php
-            $people_obj = json_decode(file_get_contents("assets/json/teacher.json"), true);
-            $people = $people_obj["people"];
+            $people_obj = json_decode(file_get_contents("assets/json/teacher.json"));
             ?>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gutter-2">
-                <?php foreach ($people as $row) { ?>
+                <?php foreach ($people_obj->people as $row) { ?>
 
                     <div class="col p-1" data-aos="fade-up" data-aos-delay="100">
                         <div class="card h-100">
-                            <img src="<?= $row["image"] ?>" class="img-fluid" alt="">
+                            <img src="<?= $row->image ?>" class="img-fluid" alt="">
                             <div class="card-body">
                                 <?php
-                                $educations = explode(" | ", $row["education"]);
+                                $educations = explode(" | ", $row->education);
                                 ?>
-                                <h5 style="font-size: 1.2rem;"><?= $row["name"] ?></h5>
-                                <label class="text-black-50"><?= $row["role"] ?></label>
+                                <h5 style="font-size: 1.2rem;"><?= $row->name ?></h5>
+                                <label class="text-black-50"><?= $row->role ?></label>
                                 <div>
                                     <?php
                                     $educations = [];
@@ -263,7 +272,7 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
                                         <div><?= $e[1] ?></div>
                                     <?php }    ?>
                                 </div>
-                                <div> <?= $row["email"] ?> </div>
+                                <div> <?= $row->email ?> </div>
                             </div>
                         </div>
                     </div>
@@ -273,29 +282,50 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
             </div>
         </div>
     </section>
-    <!-- Call to action section-->
-    <section class="cta">
-        <div class="cta-content">
-            <div class="container px-5">
-                <h2 class="text-white display-1 lh-1 mb-4">
-                    Stop waiting.
-                    <br />
-                    Start building.
-                </h2>
-                <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Download for free</a>
+
+    <!-- Fee -->
+    <section class="bg-light" id="fee">
+        <div class="container px-5  text-center">
+            <h2>ค่าธรรมเนียมการศึกษา</h2>
+            <div class="table-responsive">
+                <table class="table table-striped ">
+                    <thead>
+                        <tr>
+                            <th>ภาคการเรียน</th>
+                            <th>ช่วงเวลา</th>
+                            <th>จันทร์-ศุกร์</th>
+                            <th>เสาร์-อาทิตย์</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($program_obj->fee as $fee) { ?>
+                            <tr>
+                                <td><?= $fee->term ?></td>
+                                <td><?= $fee->time ?></td>
+                                <td><?= $fee->{"mon-fri"} ?></td>
+                                <td><?= $fee->{"sat-sun"} ?></td>
+                            </tr>
+                        <?php } ?>
+                    </tbody>
+                    <tfoot>
+                        <?php foreach ($program_obj->fee_total as $fee) { ?>
+                            <tr>
+                                <th><?= $fee->total ?></th>
+                                <th><?= $fee->total_time ?></th>
+                                <th><?= $fee->{"total_mon-fri"} ?></th>
+                                <th><?= $fee->{"total_sat-sun"} ?></th>
+                            </tr>
+                        <?php } ?>
+                    </tfoot>
+                </table>
             </div>
+
+
+
         </div>
     </section>
-    <!-- App badge section-->
-    <section class="bg-gradient-primary-to-secondary" id="download">
-        <div class="container px-5">
-            <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
-            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
-                <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
-            </div>
-        </div>
-    </section>
+
+    
 
     <?php include('layouts/footer.php'); ?>
 

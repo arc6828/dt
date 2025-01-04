@@ -68,7 +68,7 @@
       "term": "ภาคการศึกษาที่ 1",
       "time": "มิถุนายน - ตุลาคม",
       "mon-fri": "12,000",
-      "sat-sun": "12000"
+      "sat-sun": "12,000"
     },
     {
       "term": "ภาคการศึกษาที่ 2",
@@ -85,14 +85,14 @@
   ],
   "fee_total": [
     {
-      "total": "รวม",
-      "total_time": "ตลอดปี",
+      "total": "",
+      "total_time": "รวมตลอดปี",
       "total_mon-fri": "24,000",
       "total_sat-sun": "30,000"
     },
     {
-      "total": "รวม",
-      "total_time": "ตลอดหลักสูตร 4 ปี",
+      "total": "",
+      "total_time": "รวมตลอดหลักสูตร 4 ปี",
       "total_mon-fri": "96,000",
       "total_sat-sun": "120,000"
     }
@@ -133,7 +133,7 @@
       },
       {
         "course": "หมวดวิชาพื้นฐานเสริม",
-        "course_code": "VLEXXX",
+        "course_code": "65VLEXXX",
         "course_name": "หมวดวิชาพื้นฐานเสริม",
         "course_credits": "0"
       },

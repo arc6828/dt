@@ -17,15 +17,16 @@
                 <li class="nav-item"><a class="nav-link me-lg-3" href="#about">เกี่ยวกับหลักสูตร</a></li>
                 <li class="nav-item"><a class="nav-link me-lg-3" href="#structure">โครงสร้างหลักสูตร</a></li>
                 <li class="nav-item"><a class="nav-link me-lg-3" href="#plan">แผนการเรียน</a></li>
-                <li class="nav-item"><a class="nav-link me-lg-3" href="#fee">ค่าเทอม</a></li>
                 <li class="nav-item"><a class="nav-link me-lg-3" href="#lecturer">อาจารย์</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#fee">ค่าธรรมเนียม</a></li>
+                
             </ul>
-            <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+            <a class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" href="https://ent.vru.ac.th/Webregister/pages/index_insert_nm.php?fct_id=1" target="_blank">
                 <span class="d-flex align-items-center">
                     <i class="bi-chat-text-fill me-2"></i>
                     <span class="small">สมัครเรียน</span>
                 </span>
-            </button>
+            </a>
         </div>
     </div>
 </nav>
