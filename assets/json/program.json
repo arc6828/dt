@@ -1,382 +1,384 @@
 {
-    "keywords": "เรียนวิทยาการข้อมูล, วิทยาการข้อมูล, วิทยาการข้อมูลราชภัฏวไลยอลงกรณ์, เรียนตอมพิวเตอร์, ปริญญาตรีวิทยาการข้อมูล, เรียนเสาร์อาทิตย์, เรียนจันทร์ศุกร์, สาขาวิทยาการข้อมูล, วิทยาการข้อมูล ปทุมธานี, วิทยาการข้อมูล TCAS",
-    "description": "หลักสูตรวิทยาการข้อมูล ผลิตบัณฑิตจิตอาสา งานวิจัยสร้างสรรค์ และบริการชุมชนด้วยความรู้และนวัตกรรม",
-    "fullnameth": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการข้อมูล",
-    "fullnameen": "Bachelor of Science Program in Data Science",
-    "degree_fullnameth": "วิทยาศาสตรบัณฑิต (วิทยาการข้อมูล)",
-    "degree_intnameth": "วท.บ. (วิทยาการข้อมูล)",
-    "degree_fullnameen": "Bachelor of Science (Data Science)",
-    "degree_intnameen": "B.Sc. (Data Science)",
-    "credits": "120 หน่วยกิต",
-    "time": "หลักสูตรปริญญาตรี 4 ปี",
-    "type": "ปริญญาตรีทางวิชาการ",
-    "language": "ภาษาไทย/ภาษาอังกฤษ",
-    "location": "คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
-    "email": "sciencetech@vru.ac.th",
-    "tel": "09-2265-8433",
-    "www": "dt.vru.ac.th",
-    "page": "https://www.facebook.com/dt.vru.ac.th",
-    "facebook": "",
-    "webregister": "http://ent.vru.ac.th/Webregister/pages/index_insert_nm.php?fct_id=1",
-    "pdflink": "http://acad.vru.ac.th/acad/about_acad/A/xxx.pdf",
-    "learn": [
-        {
-            "year_std": "ชั้นปีที่ 1",
-            "learn_std": "อธิบายหลักการด้านวิทยาการข้อมูล วิธีการในการจัดการข้อมูล หลักการออกแบบวิธีการแก้ปัญหา แนวทางพัฒนาระบบสารสนเทศด้านการประมวลผลข้อมูล และจรรยาบรรณทางวิทยาการข้อมูล ใช้เครื่องมือวิเคราะห์ข้อมูล เขียนโปรแกรมคอมพิวเตอร์เบื้องต้น ออกแบบวิธีการแก้ปัญหาเกี่ยวกับการบริหารจัดการข้อมูล พัฒนาระบบสารสนเทศและแบบจำลองข้อมูล"
-        },
-        {
-            "year_std": "ชั้นปีที่ 2",
-            "learn_std": "ประยุกต์ใช้องค์ความรู้ด้านวิทยาการข้อมูล วิเคราะห์และบริหารจัดการข้อมูล ใช้โปรแกรมทางคณิตศาสตร์และสถิติในการแก้ปัญหาต่างๆ"
-        },
-        {
-            "year_std": "ชั้นปีที่ 3",
-            "learn_std": "วิเคราะห์ออกแบบวิธีการแก้ปัญหาเกี่ยวกับการบริหารจัดการข้อมูล พัฒนาระบบสารสนเทศและแบบจำลองข้อมูล"
-        },
-        {
-            "year_std": "ชั้นปีที่ 4",
-            "learn_std": "บูรณาการองค์ความรู้ด้านวิทยาการข้อมูลเพื่อแก้ปัญหาอย่างเป็นระบบและมีเหตุผล"
-        }
-    ],
-    "job": [
-        {
-            "num": "1",
-            "job": "นักวิทยาศาสตร์ข้อมูล (Data Scientist)"
-        },
-        {
-            "num": "2",
-            "job": "นักวิเคราะห์และวางแผนข้อมูล (Data Analyst)"
-        },
-        {
-            "num": "3",
-            "job": "วิศวกรข้อมูล (Data Engineer)"
-        },
-        {
-            "num": "4",
-            "job": "นักวิเคราะห์สถิติ (Statistical Analyst)"
-        },
-        {
-            "num": "5",
-            "job": "นักวิชาการด้านวิทยาการข้อมูล (Academic Staff)"
-        },
-        {
-            "num": "6",
-            "job": "วิศวกรด้านการเรียนรู้ของเครื่อง (Machine Learning Engineer)"
-        }
-        ], "fee": [
-            {
-                "term": "ภาคการศึกษาที่ 1",
-                "time": "มิถุนายน - ตุลาคม",
-                "mon-fri": "12,000",
-                "sat-sun": "12000"
-            },
-            {
-                "term": "ภาคการศึกษาที่ 2",
-                "time": "พฤศจิกายน - มีนาคม",
-                "mon-fri": "12,000",
-                "sat-sun": "12,000"
-            },
-            {
-                "term": "ภาคฤดูร้อน",
-                "time": "เมษายน - พฤษภาคม",
-                "mon-fri": "-",
-                "sat-sun": "6,000"
-            }
-            ], "fee_total": [
-                {
-                    "total": "รวม",
-                    "total_time": "ตลอดปี",
-                    "total_mon-fri": "24,000",
-                    "total_sat-sun": "30,000"
-                },
-                {
-                    "total": "รวม",
-                    "total_time": "ตลอดหลักสูตร 4 ปี",
-                    "total_mon-fri": "96,000",
-                    "total_sat-sun": "120,000"
-                }
-            ],
-    "structure": [
-        {
-            "structure": "จำนวนหน่วยกิต รวมตลอดหลักสูตรไม่น้อยกว่า",
-            "total": "120"
-        },
-        {
-            "structure": "1.หมวดวิชาศึกษาทั่วไป",
-            "total": "24"
-        },
-        {
-            "structure": "2.หมวดวิชาเฉพาะ",
-            "total": "90"
-        },
-        {
-            "structure": "2.1.กลุ่มวิชาเฉพาะด้านบังคับ",
-            "total": "69"
-        },
-        {
-            "structure": "2.2.กลุ่มวิชาเฉพาะด้านเลือก",
-            "total": "21"
-        },        
-        {
-            "structure": "3.หมวดวิชาเลือกเสรี",
-            "total": "6"
-        }
-    ],
-    "plan": {
-        "year1_1": [
-            {
-                "course": "หมวดวิชาศึกษาทั่วไป",
-                "course_code": "65VGEXXX",
-                "course_name": "หมวดวิชาศึกษาทั่วไป",
-                "course_credits": "6"
-            },
-            {
-                "course": "หมวดวิชาพื้นฐานเสริม",
-                "course_code": "VLEXXX",
-                "course_name": "หมวดวิชาพื้นฐานเสริม",
-                "course_credits": "0"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT101",
-                "course_name": "คณิตศาสตร์สำหรับวิทยาการข้อมูล",
-                "course_credits": "3(2-2-5)"
-            },            
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT111",
-                "course_name": "โครงสร้างข้อมูลและอัลกอริทึม",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT112",
-                "course_name": "กฎหมายและความมั่นคงปลอดภัยของระบบสารสนเทศ",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT113",
-                "course_name": "การเขียนโปรแกรมเบื้องต้นสำหรับนักวิทยาการข้อมูล",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT121",
-                "course_name": "พื้นฐานวิทยาการข้อมูล",
-                "course_credits": "3(2-2-5)"
-            }
-        ],
-        "year1_2": [
-            {
-                "course": "หมวดวิชาศึกษาทั่วไป",
-                "course_code": "65VGEXXX",
-                "course_name": "หมวดวิชาศึกษาทั่วไป",
-                "course_credits": "6"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT101",
-                "course_name": "สถิติสำหรับวิทยาการข้อมูล",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT114",
-                "course_name": "ระบบฐานข้อมูลสำหรับวิศวกรข้อมูล",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT115",
-                "course_name": "การวิเคราะห์และออกแบบระบบ",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT116",
-                "course_name": "การเขียนโปรแกรมบนเว็บ",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
-                "course_code": "65SDT122",
-                "course_name": "เทคนิคการรวบรวมข้อมูล",
-                "course_credits": "3(2-2-5)"
-            }
-        ],
-        "year2_1": [
-            {
-                "course": "หมวดวิชาศึกษาทั่วไป",
-                "course_code": "65VGEXXX",
-                "course_name": "หมวดวิชาศึกษาทั่วไป",
-                "course_credits": "6"
-            },
-            {
-                "course": "หมวดวิชาพื้นฐานเสริม",
-                "course_code": "65VLEXXX",
-                "course_name": "หมวดวิชาพื้นฐานเสริม",
-                "course_credits": "0"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT201",
-                "course_name": "การโปรแกรมทางสถิติ",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT211",
-                "course_name": "คลังข้อมูล",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT221",
-                "course_name": "การนำเสนอแผนภาพข้อมูลและการเล่าเรื่อง",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT222",
-                "course_name": "วิเคราะห์ข้อมูลทางธุรกิจ",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT231",
-                "course_name": "ภาษาอังกฤษสำหรับวิทยาการข้อมูล",
-                "course_credits": "3(2-2-5)"
-            }
-        ],
-        "year2_2": [
-            {
-                "course": "หมวดวิชาศึกษาทั่วไป",
-                "course_code": "65VGEXXX",
-                "course_name": "หมวดวิชาศึกษาทั่วไป",
-                "course_credits": "3"
-            },
-            {
-                "course": "หมวดวิชาพื้นฐานเสริม",
-                "course_code": "65VLEXXX",
-                "course_name": "หมวดวิชาพื้นฐานเสริม",
-                "course_credits": "0"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT202",
-                "course_name": "สถิติเพื่อการวิเคราะห์ข้อมูล",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT212",
-                "course_name": "เหมืองข้อมูล",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT223",
-                "course_name": "การบริหารความเสี่ยงและการประกันภัย",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT232",
-                "course_name": "ระเบียบวิธีวิจัยและการสื่อสารทางวิชาชีพ",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
-                "course_code": "65SDTXXX",
-                "course_name": "วิชาเลือก 1",
-                "course_credits": "3(2-2-5)"
-            }
-        ],
-        "year3_1": [            
-            {
-                "course": "หมวดวิชาพื้นฐานเสริม",
-                "course_code": "65VLEXXX",
-                "course_name": "หมวดวิชาพื้นฐานเสริม",
-                "course_credits": "0"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT213",
-                "course_name": "ปัญญาประดิษฐ์",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT224",
-                "course_name": "การวิเคราะห์ข้อมูลขนาดใหญ่",
-                "course_credits": "3(2-2-5)"
-            },            
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
-                "course_code": "65SDTXXX",
-                "course_name": "วิชาเลือก 2",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
-                "course_code": "65SDTXXX",
-                "course_name": "วิชาเลือก 3",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
-                "course_code": "65SDTXXX",
-                "course_name": "วิชาเลือก 4",
-                "course_credits": "3(2-2-5)"
-            }
-        ],
-        "year3_2": [            
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT214",
-                "course_name": "การเรียนรู้ของเครื่อง",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
-                "course_code": "65SDTXXX",
-                "course_name": "วิชาเลือก 5",
-                "course_credits": "3(2-2-5)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
-                "course_code": "65SDTXXX",
-                "course_name": "วิชาเลือก 6",
-                "course_credits": "3(2-2-5)"
-            }
-        ],
-        "year4_1": [
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
-                "course_code": "65SDT301",
-                "course_name": "โครงการวิจัยด้านวิทยาการข้อมูล",
-                "course_credits": "3(0-6-3)"
-            },
-            {
-                "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
-                "course_code": "65SDTXXX",
-                "course_name": "วิชาเลือก 7",
-                "course_credits": "3(2-2-5)"
-            }
-        ],
-        "year4_2": [
-            {
-                "course": "หมวดวิชาเลือกเสรี",
-                "course_code": "SCS347",
-                "course_name": "เลือกเสรี 1",
-                "course_credits": "3"
-            },
-            {
-                "course": "หมวดวิชาเลือกเสรี",
-                "course_code": "SCS349",
-                "course_name": "เลือกเสรี 2",
-                "course_credits": "3"
-            }
-        ]
+  "keywords": "เรียนวิทยาการข้อมูล, วิทยาการข้อมูล, วิทยาการข้อมูลราชภัฏวไลยอลงกรณ์, เรียนตอมพิวเตอร์, ปริญญาตรีวิทยาการข้อมูล, เรียนเสาร์อาทิตย์, เรียนจันทร์ศุกร์, สาขาวิทยาการข้อมูล, วิทยาการข้อมูล ปทุมธานี, วิทยาการข้อมูล TCAS",
+  "description": "หลักสูตรวิทยาการข้อมูล ผลิตบัณฑิตจิตอาสา งานวิจัยสร้างสรรค์ และบริการชุมชนด้วยความรู้และนวัตกรรม",
+  "fullnameth": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการข้อมูล",
+  "fullnameen": "Bachelor of Science Program in Data Science",
+  "degree_fullnameth": "วิทยาศาสตรบัณฑิต (วิทยาการข้อมูล)",
+  "degree_intnameth": "วท.บ. (วิทยาการข้อมูล)",
+  "degree_fullnameen": "Bachelor of Science (Data Science)",
+  "degree_intnameen": "B.Sc. (Data Science)",
+  "credits": "120 หน่วยกิต",
+  "time": "หลักสูตรปริญญาตรี 4 ปี",
+  "type": "ปริญญาตรีทางวิชาการ",
+  "language": "ภาษาไทย | ภาษาอังกฤษ",
+  "location": "คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์",
+  "email": "sciencetech@vru.ac.th",
+  "tel": "09-2265-8433",
+  "www": "dt.vru.ac.th",
+  "page": "https://www.facebook.com/dt.vru.ac.th",
+  "facebook": "",
+  "webregister": "http://ent.vru.ac.th/Webregister/pages/index_insert_nm.php?fct_id=1",
+  "pdflink": "http://acad.vru.ac.th/acad/about_acad/A/xxx.pdf",
+  "learn": [
+    {
+      "year_std": "ชั้นปีที่ 1 - YLO 1",
+      "learn_std": "อธิบายหลักการด้านวิทยาการข้อมูล วิธีการในการจัดการข้อมูล หลักการออกแบบวิธีการแก้ปัญหา แนวทางพัฒนาระบบสารสนเทศด้านการประมวลผลข้อมูล และจรรยาบรรณทางวิทยาการข้อมูล ใช้เครื่องมือวิเคราะห์ข้อมูล เขียนโปรแกรมคอมพิวเตอร์เบื้องต้น ออกแบบวิธีการแก้ปัญหาเกี่ยวกับการบริหารจัดการข้อมูล พัฒนาระบบสารสนเทศและแบบจำลองข้อมูล"
+    },
+    {
+      "year_std": "ชั้นปีที่ 2 - YLO 2",
+      "learn_std": "ประยุกต์ใช้องค์ความรู้ด้านวิทยาการข้อมูล วิเคราะห์และบริหารจัดการข้อมูล ใช้โปรแกรมทางคณิตศาสตร์และสถิติในการแก้ปัญหาต่างๆ"
+    },
+    {
+      "year_std": "ชั้นปีที่ 3 - YLO 3",
+      "learn_std": "วิเคราะห์ออกแบบวิธีการแก้ปัญหาเกี่ยวกับการบริหารจัดการข้อมูล พัฒนาระบบสารสนเทศและแบบจำลองข้อมูล"
+    },
+    {
+      "year_std": "ชั้นปีที่ 4 - YLO 4",
+      "learn_std": "บูรณาการองค์ความรู้ด้านวิทยาการข้อมูลเพื่อแก้ปัญหาอย่างเป็นระบบและมีเหตุผล"
     }
+  ],
+  "job": [
+    {
+      "num": "1",
+      "job": "นักวิทยาศาสตร์ข้อมูล (Data Scientist)"
+    },
+    {
+      "num": "2",
+      "job": "นักวิเคราะห์และวางแผนข้อมูล (Data Analyst)"
+    },
+    {
+      "num": "3",
+      "job": "วิศวกรข้อมูล (Data Engineer)"
+    },
+    {
+      "num": "4",
+      "job": "นักวิเคราะห์สถิติ (Statistical Analyst)"
+    },
+    {
+      "num": "5",
+      "job": "นักวิชาการด้านวิทยาการข้อมูล (Academic Staff)"
+    },
+    {
+      "num": "6",
+      "job": "วิศวกรด้านการเรียนรู้ของเครื่อง (Machine Learning Engineer)"
+    }
+  ],
+  "fee": [
+    {
+      "term": "ภาคการศึกษาที่ 1",
+      "time": "มิถุนายน - ตุลาคม",
+      "mon-fri": "12,000",
+      "sat-sun": "12000"
+    },
+    {
+      "term": "ภาคการศึกษาที่ 2",
+      "time": "พฤศจิกายน - มีนาคม",
+      "mon-fri": "12,000",
+      "sat-sun": "12,000"
+    },
+    {
+      "term": "ภาคฤดูร้อน",
+      "time": "เมษายน - พฤษภาคม",
+      "mon-fri": "-",
+      "sat-sun": "6,000"
+    }
+  ],
+  "fee_total": [
+    {
+      "total": "รวม",
+      "total_time": "ตลอดปี",
+      "total_mon-fri": "24,000",
+      "total_sat-sun": "30,000"
+    },
+    {
+      "total": "รวม",
+      "total_time": "ตลอดหลักสูตร 4 ปี",
+      "total_mon-fri": "96,000",
+      "total_sat-sun": "120,000"
+    }
+  ],
+  "structure": [
+    {
+      "structure": "จำนวนหน่วยกิต รวมตลอดหลักสูตรไม่น้อยกว่า",
+      "total": "120"
+    },
+    {
+      "structure": "1.หมวดวิชาศึกษาทั่วไป",
+      "total": "24"
+    },
+    {
+      "structure": "2.หมวดวิชาเฉพาะ",
+      "total": "90"
+    },
+    {
+      "structure": "2.1.กลุ่มวิชาเฉพาะด้านบังคับ",
+      "total": "69"
+    },
+    {
+      "structure": "2.2.กลุ่มวิชาเฉพาะด้านเลือก",
+      "total": "21"
+    },
+    {
+      "structure": "3.หมวดวิชาเลือกเสรี",
+      "total": "6"
+    }
+  ],
+  "plan": {
+    "year1_1": [
+      {
+        "course": "หมวดวิชาศึกษาทั่วไป",
+        "course_code": "65VGEXXX",
+        "course_name": "หมวดวิชาศึกษาทั่วไป",
+        "course_credits": "6"
+      },
+      {
+        "course": "หมวดวิชาพื้นฐานเสริม",
+        "course_code": "VLEXXX",
+        "course_name": "หมวดวิชาพื้นฐานเสริม",
+        "course_credits": "0"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT101",
+        "course_name": "คณิตศาสตร์สำหรับวิทยาการข้อมูล",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT111",
+        "course_name": "โครงสร้างข้อมูลและอัลกอริทึม",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT112",
+        "course_name": "กฎหมายและความมั่นคงปลอดภัยของระบบสารสนเทศ",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT113",
+        "course_name": "การเขียนโปรแกรมเบื้องต้นสำหรับนักวิทยาการข้อมูล",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT121",
+        "course_name": "พื้นฐานวิทยาการข้อมูล",
+        "course_credits": "3(2-2-5)"
+      }
+    ],
+    "year1_2": [
+      {
+        "course": "หมวดวิชาศึกษาทั่วไป",
+        "course_code": "65VGEXXX",
+        "course_name": "หมวดวิชาศึกษาทั่วไป",
+        "course_credits": "6"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT101",
+        "course_name": "สถิติสำหรับวิทยาการข้อมูล",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT114",
+        "course_name": "ระบบฐานข้อมูลสำหรับวิศวกรข้อมูล",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT115",
+        "course_name": "การวิเคราะห์และออกแบบระบบ",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT116",
+        "course_name": "การเขียนโปรแกรมบนเว็บ",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
+        "course_code": "65SDT122",
+        "course_name": "เทคนิคการรวบรวมข้อมูล",
+        "course_credits": "3(2-2-5)"
+      }
+    ],
+    "year2_1": [
+      {
+        "course": "หมวดวิชาศึกษาทั่วไป",
+        "course_code": "65VGEXXX",
+        "course_name": "หมวดวิชาศึกษาทั่วไป",
+        "course_credits": "6"
+      },
+      {
+        "course": "หมวดวิชาพื้นฐานเสริม",
+        "course_code": "65VLEXXX",
+        "course_name": "หมวดวิชาพื้นฐานเสริม",
+        "course_credits": "0"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT201",
+        "course_name": "การโปรแกรมทางสถิติ",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT211",
+        "course_name": "คลังข้อมูล",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT221",
+        "course_name": "การนำเสนอแผนภาพข้อมูลและการเล่าเรื่อง",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT222",
+        "course_name": "วิเคราะห์ข้อมูลทางธุรกิจ",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT231",
+        "course_name": "ภาษาอังกฤษสำหรับวิทยาการข้อมูล",
+        "course_credits": "3(2-2-5)"
+      }
+    ],
+    "year2_2": [
+      {
+        "course": "หมวดวิชาศึกษาทั่วไป",
+        "course_code": "65VGEXXX",
+        "course_name": "หมวดวิชาศึกษาทั่วไป",
+        "course_credits": "3"
+      },
+      {
+        "course": "หมวดวิชาพื้นฐานเสริม",
+        "course_code": "65VLEXXX",
+        "course_name": "หมวดวิชาพื้นฐานเสริม",
+        "course_credits": "0"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT202",
+        "course_name": "สถิติเพื่อการวิเคราะห์ข้อมูล",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT212",
+        "course_name": "เหมืองข้อมูล",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT223",
+        "course_name": "การบริหารความเสี่ยงและการประกันภัย",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT232",
+        "course_name": "ระเบียบวิธีวิจัยและการสื่อสารทางวิชาชีพ",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
+        "course_code": "65SDTXXX",
+        "course_name": "วิชาเลือก 1",
+        "course_credits": "3(2-2-5)"
+      }
+    ],
+    "year3_1": [
+      {
+        "course": "หมวดวิชาพื้นฐานเสริม",
+        "course_code": "65VLEXXX",
+        "course_name": "หมวดวิชาพื้นฐานเสริม",
+        "course_credits": "0"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT213",
+        "course_name": "ปัญญาประดิษฐ์",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT224",
+        "course_name": "การวิเคราะห์ข้อมูลขนาดใหญ่",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
+        "course_code": "65SDTXXX",
+        "course_name": "วิชาเลือก 2",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
+        "course_code": "65SDTXXX",
+        "course_name": "วิชาเลือก 3",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
+        "course_code": "65SDTXXX",
+        "course_name": "วิชาเลือก 4",
+        "course_credits": "3(2-2-5)"
+      }
+    ],
+    "year3_2": [
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT214",
+        "course_name": "การเรียนรู้ของเครื่อง",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
+        "course_code": "65SDTXXX",
+        "course_name": "วิชาเลือก 5",
+        "course_credits": "3(2-2-5)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
+        "course_code": "65SDTXXX",
+        "course_name": "วิชาเลือก 6",
+        "course_credits": "3(2-2-5)"
+      }
+    ],
+    "year4_1": [
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาบังคับ)",
+        "course_code": "65SDT301",
+        "course_name": "โครงการวิจัยด้านวิทยาการข้อมูล",
+        "course_credits": "3(0-6-3)"
+      },
+      {
+        "course": "หมวดวิชาเฉพาะ (วิชาเลือก)",
+        "course_code": "65SDTXXX",
+        "course_name": "วิชาเลือก 7",
+        "course_credits": "3(2-2-5)"
+      }
+    ],
+    "year4_2": [
+      {
+        "course": "หมวดวิชาเลือกเสรี",
+        "course_code": "SCS347",
+        "course_name": "เลือกเสรี 1",
+        "course_credits": "3"
+      },
+      {
+        "course": "หมวดวิชาเลือกเสรี",
+        "course_code": "SCS349",
+        "course_name": "เลือกเสรี 2",
+        "course_credits": "3"
+      }
+    ]
+  }
 }

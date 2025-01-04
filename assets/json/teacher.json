@@ -2,46 +2,76 @@
   "people": [
     {
       "id": 1,
-      "name": "ณัฐรดี อนุพงค์",
-      "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ | B.Sc. (Applied Computing) - Northumbria University, Newcastle upon Tyne, United Kingdom.",
-      "role": "อาจารย์",
-      "email": "natradee@vru.ac.th",
+      "name": "ดร.สุนันทา ศรีโสภา",
+      "education": "ปร.ด. (คณิตศาสตร์ประยุกต์) - สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง | วท.ม. (คณิตศาสตร์)  - มหาวิทยาลัยเกษตรศาสตร์ | วท.บ. (คณิตศาสตร์) - มหาวิทยาลัยเกษตรศาสตร์",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "sunanta.sri@vru.ac.th",
       "phone": "",
-      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128092522000000_1732760722306_edit.jpg",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128100419000000_1732763059146_edit.jpg",
       "office": "IT102 อาคาร 75 ปีฯ"
     },
     {
       "id": 2,
-      "name": "ณัฏฐิรา ศุขไพบูลย์",
-      "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | วท.บ. (วิทยาการคอมพิวเตอร์) - สถาบันราชภัฏเทพสตรี",
-      "role": "ผู้ช่วยศาสตราจารย์",
-      "email": "nattila@vru.ac.th",
+      "name": "สุภาวิณี ขันคำ",
+      "education": "ปร.ด. (คณิตศาสตร์ประยุกต์) - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี | วท.ม. (คณิตศาสตร์) - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี | วท.บ. (คณิตศาสตร์) - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "role": "อาจารย์",
+      "email": "supawinee@vru.ac.th",
       "phone": "",
-      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091901000000_1732760341097_edit.jpg",
-      "office": "IT102 อาคาร 75 ปีฯ"
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128100556000000_1732763156093_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
     },
     {
       "id": 3,
-      "name": "ดร.ประณมกร อัมพรพรรดิ์",
-      "education": "Ph.D. (Computer Science and Information System) - สถาบันบัณฑิตพัฒนบริหารศาสตร์ (NIDA) | M.Infs. (Database Systems) - University of  New South Wales, Australia | วท.บ. (วิทยาการคอมพิวเตอร์) - มหาวิทยาลัยมหิดล",
+      "name": "สิโรรัตน์ จั่นงาม",
+      "education": "วท.ม. (สถิติประยุกต์) - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ | วท.บ. (สถิติประยุกต์) - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
       "role": "อาจารย์",
-      "email": "pranomkorn@vru.ac.th",
+      "email": "sirorath@vru.ac.th",
       "phone": "",
-      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128092000000000_1732760400296_edit.jpg",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128100515000000_1732763115093_edit.jpg",
       "office": "IT102 อาคาร 75 ปีฯ"
     },
     {
       "id": 4,
-      "name": "ดร.ดาวรถา วีระพันธ์",
-      "education": "ปร.ด. (วิทยาศาสตรศึกษา) - มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ในพระบรมราชูปถัมภ์ | ค.อ.ม. (เทคโนโลยี คอมพิวเตอร์) - สถาบันเทคโนโลยีพระจอมเกล้าพระนครเหนือ | ค.บ. (คอมพิวเตอร์ศึกษา) - สถาบันราชภัฏเพชรบุรี",
+      "name": "วิริยาภรณ์ กล่อมสังข์เจริญ",
+      "education": "วท.ม. (สถิติประยุกต์และเทคโนโลยีสารสนเทศ) สาขาวิทยาการประกันภัยและการบริหารความเสี่ยง - สถาบันบัณฑิตพัฒนบริหารศาสตร์ | ประกาศนียบัตรบัณฑิตวิชาชีพครู - มหาวิทยาลัยรามคำแหง | วท.บ. (คณิตศาสตร์) - มหาวิทยาลัยบูรพา",
       "role": "อาจารย์",
-      "email": "daorathar@vru.ac.th",
+      "email": "wiriyabhorn@vru.ac.th",
       "phone": "",
-      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128093525000000_1732761325984_edit.jpg",
-      "office": "IT101 อาคาร 75 ปีฯ"
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128095257000000_1732762377964_edit.jpg",
+      "office": "IT102 อาคาร 75 ปีฯ"
     },
     {
       "id": 5,
+      "name": "ชวลิต โควีระวงศ์",
+      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology | B.Sc. (Computer Science) - Sirindhron International Institute of Technology",
+      "role": "อาจารย์",
+      "email": "chavalit@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    },    
+    {
+      "id": 6,
+      "name": "อิงอร วงษ์ศรีรักษา",
+      "education": "วท.ม. (วิทยาการคอมพิวเตอร์) - สถาบันบัณฑิตพัฒนบริหารศาสตร์ | วท.บ. (วิทยาการคอมพิวเตอร์) - มหาวิทยาลัยขอนแก่น",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "ing_orn@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/IMG_20230513_092921_edit.jpg",
+      "office": "IT101 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 7,
+      "name": "ไพรินทร์ มีศรี",
+      "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยศรีปทุม | บธ.บ. (ระบบสารสนเทศ) - สถาบันเทคโนโลยีราชมงคลธัญบุรี",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "phairin@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/3150600360621_edit17289184043912.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 8,
       "name": "วิศรุต ขวัญคุ้ม",
       "education": "วท.ม. (วิทยาการคอมพิวเตอร์) - มหาวิทยาลัยนเรศวร | วท.บ. (วิทยาการคอมพิวเตอร์) - มหาวิทยาลัยนเรศวร",
       "role": "อาจารย์",
@@ -51,7 +81,27 @@
       "office": "IT201 อาคาร 75 ปีฯ"
     },
     {
-      "id": 6,
+      "id": 9,
+      "name": "ปัณณรัตน์ วงศ์พัฒนานิภาส",
+      "education": "วท.ม. (การศึกษาวิทยาศาสตร์ เอกคอมพิวเตอร์) - สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง | คอ.บ. (อิเล็กทรอนิกส์และคอมพิวเตอร์) - สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "pannarat@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128105034000000_1732765834183_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 10,
+      "name": "อุทัย สำรวมจิตร์",
+      "education": "คอ.ม. (วิศวกรรมไฟฟ้าสื่อสาร) - สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง | คอ.บ. (อิเล็กทรอนิกส์และคอมพิวเตอร์) - สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "role": "อาจารย์",
+      "email": "uthai.sum@vru.ac.th",
+      "phone": "",
+      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128104931000000_1732765771669_edit.jpg",
+      "office": "IT201 อาคาร 75 ปีฯ"
+    },
+    {
+      "id": 11,
       "name": "ณัฐรดี อนุพงค์",
       "education": "วท.ม. (เทคโนโลยีสารสนเทศ) - มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ | B.Sc. (Applied Computing) - Northumbria University, Newcastle upon Tyne, United Kingdom.",
       "role": "อาจารย์",
@@ -59,56 +109,10 @@
       "phone": "",
       "image": "https://sci.vru.ac.th/assets/images/people/img_20241128092522000000_1732760722306_edit.jpg",
       "office": "IT102 อาคาร 75 ปีฯ"
-    },
-    {
-      "id": 7,
-      "name": "ชวลิต โควีระวงศ์",
-      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
-      "role": "อาจารย์",
-      "email": "chavalit@vru.ac.th",
-      "phone": "",
-      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
-      "office": "IT201 อาคาร 75 ปีฯ"
-    },
-    {
-      "id": 8,
-      "name": "ชวลิต โควีระวงศ์",
-      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
-      "role": "อาจารย์",
-      "email": "chavalit@vru.ac.th",
-      "phone": "",
-      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
-      "office": "IT201 อาคาร 75 ปีฯ"
-    },
-    {
-      "id": 9,
-      "name": "ชวลิต โควีระวงศ์",
-      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
-      "role": "อาจารย์",
-      "email": "chavalit@vru.ac.th",
-      "phone": "",
-      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
-      "office": "IT201 อาคาร 75 ปีฯ"
-    },
-    {
-      "id": 10,
-      "name": "ชวลิต โควีระวงศ์",
-      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
-      "role": "อาจารย์",
-      "email": "chavalit@vru.ac.th",
-      "phone": "",
-      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
-      "office": "IT201 อาคาร 75 ปีฯ"
-    },
-    {
-      "id": 11,
-      "name": "ชวลิต โควีระวงศ์",
-      "education": "M.Eng. (ICT for Embedded Systems) - Sirindhron International Institute of Technology, Thammasat University | B.Sc. (Computer Science) - Sirindhron International Institute of Technology, Thammasat University",
-      "role": "อาจารย์",
-      "email": "chavalit@vru.ac.th",
-      "phone": "",
-      "image": "https://sci.vru.ac.th/assets/images/people/img_20241128091606000000_1732760166931_edit.jpg",
-      "office": "IT201 อาคาร 75 ปีฯ"
     }
+    
+    
+    
+    
   ]
 }

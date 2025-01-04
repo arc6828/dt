@@ -1,22 +1,17 @@
 <!DOCTYPE html>
+<?php
+$program_obj = json_decode(file_get_contents("assets/json/program.json"));
+?>
 <html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>New Age - Start Bootstrap Theme</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <meta name="description" content="<?= $program_obj->description ?>" />
+    <meta name="keywords" content="<?= $program_obj->keywords ?>">
+    <meta name="author" content="หลักสูตรวิทยาการข้อมูล - มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์" />
+    <title>หลักสูตรวิทยาการข้อมูล - มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</title>
+    <?php include('layouts/style.php'); ?>
 </head>
 
 <body id="page-top">
@@ -25,48 +20,20 @@
     <header class="masthead">
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <!-- Mashead text and app badges-->
-                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                        <h1 class="display-1 lh-1 mb-3">Showcase your app beautifully.</h1>
-                        <p class="lead fw-normal text-muted mb-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start kanit">
+                        <h1 class="display-3 lh-1 mb-3">รับสมัครนักศึกษา (ปริญญาตรีภาคจันทร์-ศุกร์ และภาคเสาร์-อาทิตย์)</h1>
+                        <p class="lead fw-normal text-muted mb-5">หลักสูตรวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ รับสมัครนักศึกษา TCAS (ปริญญาตรี จันทร์-ศุกร์ และภาคเสาร์-อาทิตย์) ตั้งแต่วันนี้เป็นต้นไป ดูรายละเอียดและกรอกใบสมัครได้ที่นี่</p>
                         <div class="d-flex flex-column flex-lg-row align-items-center">
-                            <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
-                            <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                            <a class="me-lg-3 mb-4 mb-lg-0" href="https://ent.vru.ac.th/Webregister/pages/index_insert_nm.php?fct_id=1" target="_blank">
+                                <button class="btn btn-primary btn-lg"> <i class="bi-chat-text-fill me-2"></i> สม้ครเรียน</button>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <!-- Masthead device mockup feature-->
-                    <div class="masthead-device-mockup">
-                        <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                    <stop class="gradient-start-color" offset="0%"></stop>
-                                    <stop class="gradient-end-color" offset="100%"></stop>
-                                </linearGradient>
-                            </defs>
-                            <circle cx="50" cy="50" r="50"></circle>
-                        </svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect>
-                        </svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="50" cy="50" r="50"></circle>
-                        </svg>
-                        <div class="device-wrapper">
-                            <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                                <div class="screen bg-black">
-                                    <!-- PUT CONTENTS HERE:-->
-                                    <!-- * * This can be a video, image, or just about anything else.-->
-                                    <!-- * * Set the max width of your media to 100% and the height to-->
-                                    <!-- * * 100% like the demo example below.-->
-                                    <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%">
-                                        <source src="assets/img/demo-screen.mp4" type="video/mp4" />
-                                    </video>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-4">
+                    <img src="assets/img/logo.jpeg" class="rounded-circle">
                 </div>
             </div>
         </div>
@@ -76,14 +43,195 @@
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-xl-8">
-                    <div class="h2 fs-1 text-white mb-4">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</div>
-                    <img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />
+                    <div class="h2 fs-1 text-white mb-4 kanit" title="คำคมนี้ชี้ให้เห็นถึงความสำคัญของข้อมูลในการตัดสินใจที่มีความน่าเชื่อถือและสามารถพิสูจน์ได้">
+                        "หากปราศจากข้อมูล คุณก็แค่เป็นอีกคนที่มีความคิดเห็น - Without data, you're just another person with an opinion. "
+                    </div>
+                    <div class="h2 fs-5 text-white mb-4 kanit">
+                        W. Edwards Deming, ผู้เชี่ยวชาญด้านการบริหารและการควบคุมคุณภาพ
+                    </div>
                 </div>
             </div>
         </div>
     </aside>
-    <!-- App features section-->
-    <section id="features">
+    <!-- About Major section-->
+    <section id="about">
+        <div class="container px-5">
+            <h2 class="text-center">เกี่ยวกับหลักสูตร</h2>
+
+
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>ชื่อหลักสูตร</th>
+                            <td>
+                                <?= $program_obj->fullnameth ?> |
+                                <?= $program_obj->fullnameen ?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>ชื่อปริญญาและสาขาวิชา</th>
+                            <td>
+                                <?= $program_obj->degree_fullnameth ?> |
+                                <?= $program_obj->degree_fullnameen ?> <br>
+                                <?= $program_obj->degree_intnameth ?> |
+                                <?= $program_obj->degree_intnameen ?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>จำนวนหน่วยกิต</th>
+                            <td><?= $program_obj->credits ?></td>
+                        </tr>
+                        <tr>
+                            <th>รูปแบบและประเภท</th>
+                            <td><?= $program_obj->time ?> | <?= $program_obj->type ?> </td>
+                        </tr>
+                        <tr>
+                            <th>ภาษาที่ใช้</th>
+                            <td><?= $program_obj->language ?></td>
+                        </tr>
+                        <tr>
+                            <th>สถานที่</th>
+                            <td><?= $program_obj->location ?></td>
+                        </tr>
+                        <tr>
+                            <th>ติดต่อเรา</th>
+                            <td>
+                                <?= $program_obj->email ?> <br>
+                                <?= $program_obj->tel ?> <br>
+                                <a href="/"><?= $program_obj->www ?><a> <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>อาชีพที่สามารถประกอบได้หลังสำเร็จการศึกษา</th>
+                            <td>
+                                <?php foreach ($program_obj->job as $job) { ?>
+                                    <?= $job->job ?> <br>
+                                <?php } ?>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Basic features section-->
+    <section class="bg-light">
+        <div class="container px-5">
+            <h2 class="mb-4">Technology Stack กับการคอร์สที่เปิดสอน</h2>
+            <p class="lead fw-normal text-muted mb-4">ชุดของเครื่องมือ, เทคโนโลยี, และภาษาที่ใช้ในการจัดการกับข้อมูล, การวิเคราะห์, การสร้างโมเดลทางสถิติ, และการทำงานเกี่ยวกับการเรียนรู้ของเครื่อง (Machine Learning) เพื่อช่วยให้การตัดสินใจโดยอิงจากข้อมูลมีความแม่นยำและมีประสิทธิภาพยิ่งขึ้น </p>
+            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-lg-6">
+                    <div class="px-5 px-sm-0"><img class="img-thumbnail" src="assets/img/dt-stack-2024-2025.png" alt="technology stack for data science" /></div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <?php foreach ($program_obj->learn as $learn) { ?>
+                                    <tr>
+                                        <td>
+                                            <label><?= $learn->year_std ?></label>
+                                            <p class="text-muted"><?= $learn->learn_std ?></p>
+                                        </td>
+                                    </tr>
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Structure features section-->
+    <section class="" id="structure">
+        <div class="container px-5">
+            <h2 class="mb-4 text-center">โครงสร้างหลักสูตร</h2>
+            <div class="row gx-5 align-items-center justify-content-center">
+                <div class="col-xl-8">
+                    <div class="table-responsive">
+                        <table class="table table-striped ">
+                            <thead>
+                                <tr>
+                                    <th>หมวดวิชา</th>
+                                    <th>จำนวนหน่วยกิต (หน่วยกิต)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($program_obj->structure as $structure) { ?>
+                                    <tr>
+                                        <th><span style="padding:<?= substr_count($structure->structure, '.') * 20 ?>px;"></span><?= $structure->structure ?></th>
+                                        <td><?= $structure->total ?></td>
+                                    </tr>
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Plan -->
+    <section class="bg-light" id="plan">
+        <div class="container px-5  text-center">
+            <h2>แผนการเรียน</h2>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <?php
+                    $semesters = ["year1_1", "year1_2", "year2_1", "year2_2", "year3_1", "year3_2", "year4_1", "year4_1"];
+                    ?>
+                    <?php foreach ($semesters as $semester) { ?>
+                        <div class="carousel-item">
+                            <div>
+                                <h3>Semester x/y</h3>
+                                <div class="table-responsive">
+                                    <table class="table table-striped ">
+                                        <thead>
+                                            <tr>
+                                                <th>หมวดวิชา</th>
+                                                <th>รหัสวิชา</th>
+                                                <th>ชื่อวิชา</th>
+                                                <th>หน่วยกิต</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php foreach ($program_obj->plan->{$semester} as $course) { ?>
+                                                <tr>
+                                                    <td><?= $course->course ?></td>
+                                                    <td><?= $course->course_code ?></td>
+                                                    <td><?= $course->course_name ?></td>
+                                                    <td><?= $course->course_credits ?></td>
+                                                </tr>
+                                            <?php } ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                    <?php } ?>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">ก่อนหน้า</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">ต่อไป</span>
+                </button>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Lecturers -->
+    <section class="" id="lecturer">
         <div class="container px-5  text-center">
             <h2>อาจารย์ในหลักสูตร</h2>
             <?php
@@ -103,6 +251,9 @@
                                 <h5 style="font-size: 1.2rem;"><?= $row["name"] ?></h5>
                                 <label class="text-black-50"><?= $row["role"] ?></label>
                                 <div>
+                                    <?php
+                                    $educations = [];
+                                    ?>
                                     <?php foreach ($educations as $item) {  ?>
                                         <?php
                                         $e = explode(" - ", $item);
@@ -112,7 +263,6 @@
                                         <div><?= $e[1] ?></div>
                                     <?php }    ?>
                                 </div>
-                                <!-- <div> <?= $row["phone"] ?> </div> -->
                                 <div> <?= $row["email"] ?> </div>
                             </div>
                         </div>
@@ -120,20 +270,6 @@
                     <!-- End Team Member-->
 
                 <?php } ?>
-            </div>
-        </div>
-    </section>
-    <!-- Basic features section-->
-    <section class="bg-light">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-                <div class="col-12 col-lg-5">
-                    <h2 class="display-4 lh-1 mb-4">Enter a new age of web design</h2>
-                    <p class="lead fw-normal text-muted mb-5 mb-lg-0">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
-                </div>
-                <div class="col-sm-8 col-md-6">
-                    <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="..." /></div>
-                </div>
             </div>
         </div>
     </section>
