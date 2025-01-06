@@ -15,7 +15,7 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
 </head>
 
 <body id="page-top">
-    <?php include('layouts/navigation.php'); ?>
+    <?php include('layouts/header.php'); ?>
     <!-- Mashead header-->
     <header class="masthead">
         <div class="container px-5">

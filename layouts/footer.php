@@ -11,7 +11,7 @@
 </section>
 
 <!-- App badge section-->
-<div class="bg-gradient-primary-to-secondary text-center py-5">
+<div class="bg-gradient-primary-to-secondary text-center py-5" id="contact">
     <div class="container px-5">
         <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
             <div class="col-md-2 text-md-end text-center">
@@ -52,7 +52,10 @@
             <a href="#lecturer">อาจารย์</a>
             <span class="mx-1">&middot;</span>
             <a href="#fee">ค่าธรรมเนียม</a>
+            <span class="mx-1">&middot;</span>
             <a href="#lecturer">อาจารย์</a>
+            <span class="mx-1">&middot;</span>
+            <a href="#contact">ติดต่อ</a>
             <span class="mx-1">&middot;</span>
             <a href="https://ent.vru.ac.th/Webregister/pages/index_insert_nm.php?fct_id=1" target="_blank">สมัครเรียน</a>
         </div>
