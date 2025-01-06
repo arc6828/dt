@@ -32,8 +32,8 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="assets/img/logo.jpeg" class="rounded-circle">
+                <div class="col-lg-4 text-center">
+                    <img src="assets/img/logo.jpeg" class="img-fluid rounded-circle">
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
             <p class="lead fw-normal text-muted mb-4">ชุดของเครื่องมือ, เทคโนโลยี, และภาษาที่ใช้ในการจัดการกับข้อมูล, การวิเคราะห์, การสร้างโมเดลทางสถิติ, และการทำงานเกี่ยวกับการเรียนรู้ของเครื่อง (Machine Learning) เพื่อช่วยให้การตัดสินใจโดยอิงจากข้อมูลมีความแม่นยำและมีประสิทธิภาพยิ่งขึ้น </p>
             <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                 <div class="col-lg-6">
-                    <div class="px-5 px-sm-0"><img class="img-thumbnail" src="assets/img/dt-stack-2024-2025.png" alt="technology stack for data science" /></div>
+                    <div class="px-5 px-sm-0 py-4"><img class="img-thumbnail" src="assets/img/dt-stack-2024-2025.png" alt="technology stack for data science" /></div>
                 </div>
                 <div class="col-lg-6">
                     <div class="table-responsive">
@@ -158,7 +158,7 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
                             <thead>
                                 <tr>
                                     <th>หมวดวิชา</th>
-                                    <th>จำนวนหน่วยกิต (หน่วยกิต)</th>
+                                    <th>หน่วยกิต</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -197,7 +197,7 @@ $program_obj = json_decode(file_get_contents("assets/json/program.json"));
 
                                 ?>
                                 <h3 class="fs-5">ชั้นปีที่ <?= $semester[4] ?> ภาคการศึกษาที่ <?= $semester[6] ?></h3>
-                                <div class="table-responsive">
+                                <div class="table-responsive mb-5">
                                     <table class="table table-striped ">
                                         <thead>
                                             <tr>

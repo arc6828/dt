@@ -14,10 +14,10 @@
 <div class="bg-gradient-primary-to-secondary text-center py-5">
     <div class="container px-5">
         <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-            <div class="col-md-2 text-end">
+            <div class="col-md-2 text-md-end text-center">
                 <img class="img-thumbnail rounded-circle mb-4" src="assets/img/logo.jpeg" width="100">
             </div>
-            <div class="col-md-6 text-start text-white kanit ">
+            <div class="col-md-6 text-md-start text-center text-white kanit ">
                 <h5>หลักสูตรวิทยาการข้อมูล</h5>
                 <div>คณะวิทยาศาสตร์และเทคโนโลยี </div>
                 <div>มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์</div>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-4">
                 <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                    <a class="me-lg-3 mb-4 mb-lg-0" href="https://ent.vru.ac.th/Webregister/pages/index_insert_nm.php?fct_id=1" target="_blank">
+                    <a class="me-lg-3 my-4 mb-lg-0" href="https://ent.vru.ac.th/Webregister/pages/index_insert_nm.php?fct_id=1" target="_blank">
                         <button class="btn btn-primary btn-lg"> <i class="bi-chat-text-fill me-2"></i> สม้ครเรียน</button>
                     </a>
                 </div>
@@ -42,7 +42,7 @@
 <footer class="bg-black text-center py-5">
     <div class="container px-5">
         <div class="text-white-50 small">
-            <div class="mb-2 kanit">&copy; หลักสูตรวิทยาการข้อมูล มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ 2024. All Rights Reserved.</div>
+            <div class="mb-2 kanit">&copy; หลักสูตรวิทยาการข้อมูล มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์ <?= date("Y") ?>. All Rights Reserved.</div>
             <a href="#about">เกี่ยวกับหลักสูตร</a>
             <span class="mx-1">&middot;</span>
             <a href="#structure">โครงสร้างหลักสูตร</a>
@@ -52,6 +52,9 @@
             <a href="#lecturer">อาจารย์</a>
             <span class="mx-1">&middot;</span>
             <a href="#fee">ค่าธรรมเนียม</a>
+            <a href="#lecturer">อาจารย์</a>
+            <span class="mx-1">&middot;</span>
+            <a href="https://ent.vru.ac.th/Webregister/pages/index_insert_nm.php?fct_id=1" target="_blank">สมัครเรียน</a>
         </div>
     </div>
 </footer>
